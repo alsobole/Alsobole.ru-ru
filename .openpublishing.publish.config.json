@@ -8,31 +8,32 @@
       "build_source_folder": "Alisa2",
       "build_output_subfolder": "Alisa2",
       "locale": "ru-ru",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      }
-    },
-    {
-      "docset_name": "Alisa1",
-      "build_source_folder": "Alisa1",
-      "build_output_subfolder": "Alisa1",
-      "locale": "ru-ru",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "template_folder": "_themes"
+      "version": 0
+    },
+    {
+      "docset_name": "Alisa1",
+      "build_source_folder": "Alisa1",
+      "build_output_subfolder": "Alisa1",
+      "locale": "ru-ru",
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
+  "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "dependent_repositories": [
     {
@@ -41,5 +42,6 @@
       "branch": "master",
       "branch_mapping": {}
     }
-  ]
+  ],
+  "need_generate_pdf_url_template": false
 }
